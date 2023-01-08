@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AWS IAM Policy Tool</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>AWS IAM Policy Tool</h1>
+  <p>Enter your policy statement in the text box below:</p>
+  <form id="policy-form">
+    <textarea placeholder="Start typing..." id="policy-input" rows="10" cols="50" form="policy-form"></textarea>
+    <!-- <textarea id="session-token" rows="2" cols="50" form="policy-form"></textarea> -->
+    <br>
+    
+    <button type="submit">Generate Policy</button>
+  </form>
+  <br>
+
+  <p>Generated policy:</p>
+  <pre id="policy-output">
+    <span id="json-output"></span>
+    <button id="copy-button">Copy</button>
+    <div id="preload">
+      <img src="https://media.tenor.com/6gHLhmwO87sAAAAi/gg.gif" alt="Loading..." />
+    </div>
+  </pre>
+  
+  
+
+
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/json-formatter/0.7.0/json-formatter.min.js"></script> -->
+  <script src="script.js"></script>
+
+
+</body>
+</html>

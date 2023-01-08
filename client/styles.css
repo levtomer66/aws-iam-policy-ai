@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+h1 {
+  color: #006699;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+textarea {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+button[type="submit"] {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #006699;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #003366;
+}
+
+pre {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin: 0 auto;
+  width: 50%;
+  font-size: 16px;
+  overflow: auto;
+  position: relative;
+}
+
+/* Add a copy button to the JSON data */
+button#copy-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #575757;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#policy-input {
+  height: 200px;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease-in-out;
+}
+
+#policy-input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+#policy-input:focus {
+  border-color: #999;
+}
+
+
+#preload img {
+  width: 9em;
+  height: 9em;
+}
