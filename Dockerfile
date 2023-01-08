@@ -11,6 +11,6 @@ RUN npm install
 
 # Copy the rest of the source code to the working directory
 COPY . .
-
+EXPOSE 3000
 # Run the app when the container starts
 CMD ["node", "server/index.js"]
